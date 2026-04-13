@@ -5,7 +5,7 @@ This project implements a Multimodal Machine Learning system to predict housing 
 
 Unlike traditional models that rely only on numerical features, this approach leverages visual information + structured features to improve prediction performance.
 
- Objective
+Objective
 
 To build a robust regression model that:
 
@@ -22,7 +22,7 @@ This project uses:
    
 2) Custom Image Dataset (house/room images)
 
-⚙️ Methodology
+ Methodology
 
  1. Data Preprocessing
 Handled missing values
@@ -43,33 +43,33 @@ Location
 Condition
 Applied scaling and encoding
 
- 4. Feature Fusion (Core Step)
+4. Feature Fusion (Core Step)
 Combined:
 CNN image features
 Tabular features
  Created a multimodal representation
 
- 5. Model Training   
+5. Model Training   
 Built a regression model using fused features
 Trained using combined inputs
 
- 6. Evaluation Metrics
+6. Evaluation Metrics
 
 Model performance evaluated using:
- MAE (Mean Absolute Error)
- RMSE (Root Mean Squared Error)
+ 
+MAE (Mean Absolute Error)
+ 
+RMSE (Root Mean Squared Error)
 
- Tech Stack
+Tech Stack
  
 Python 
+
 TensorFlow / Keras
+
 Scikit-learn
+
 NumPy / Pandas
+
 Matplotlib
 
-Future Improvements
-
-Use pretrained models (ResNet, EfficientNet)
-Improve dataset quality (better image-label mapping)
-Hyperparameter tuning
-Deploy with Streamlit
