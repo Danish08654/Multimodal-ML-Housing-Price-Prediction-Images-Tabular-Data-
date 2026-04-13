@@ -1,18 +1,20 @@
 This project implements a Multimodal Machine Learning system to predict housing prices by combining:
 
 1) Structured (tabular) data
+
 2) House images
 
 Unlike traditional models that rely only on numerical features, this approach leverages visual information + structured features to improve prediction performance.
 
 Objective
 
-To build a robust regression model that:
-
 1) Extracts features from images using CNN
+
 2) Processes structured housing data
-3) Combines both modalities (feature fusion)
-4) Predicts house prices accurately
+
+4) Combines both modalities (feature fusion)
+
+6) Predicts house prices accurately
 
  Dataset
 
@@ -46,30 +48,34 @@ Applied scaling and encoding
 4. Feature Fusion (Core Step)
 Combined:
 CNN image features
-Tabular features
- Created a multimodal representation
 
-5. Model Training   
+Tabular 
+
+Created a multimodal representation
+
+5. Model Training
+   
 Built a regression model using fused features
+
 Trained using combined inputs
 
 6. Evaluation Metrics
 
 Model performance evaluated using:
  
-MAE (Mean Absolute Error)
+1) MAE (Mean Absolute Error)
  
-RMSE (Root Mean Squared Error)
+2) RMSE (Root Mean Squared Error)
 
 Tech Stack
  
-Python 
+1) Python 
 
-TensorFlow / Keras
+2) TensorFlow / Keras
 
-Scikit-learn
+3) Scikit-learn
 
-NumPy / Pandas
+4) NumPy / Pandas
 
-Matplotlib
+5) Matplotlib
 
