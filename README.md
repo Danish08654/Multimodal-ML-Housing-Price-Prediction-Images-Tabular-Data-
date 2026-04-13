@@ -37,37 +37,6 @@ This project uses:
 5.  Linked image paths with tabular data
    
 
- 3. Image Feature Extraction (CNN)
-
-3.1 Built a Convolutional Neural Network (CNN)
-
-3.2 Extracted high-level visual features from house images
-
- 5. Tabular Data Processing
-Used structured features:
-Area
-Bedrooms
-Bathrooms
-Location
-Condition
-Applied scaling and encoding
-
-6. Feature Fusion (Core Step)
-Combined:
-CNN image features
-
-Tabular 
-
-Created a multimodal representation
-
-5. Model Training
-   
-Built a regression model using fused features
-
-Trained using combined inputs
-
-6. Evaluation Metrics
-
 Model performance evaluated using:
  
 1) MAE (Mean Absolute Error)
