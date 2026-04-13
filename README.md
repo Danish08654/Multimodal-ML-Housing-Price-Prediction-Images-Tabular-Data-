@@ -35,8 +35,10 @@ This project uses:
 4.  Encoded categorical variables
 
 5.  Linked image paths with tabular data
+   
 
  3. Image Feature Extraction (CNN)
+
 3.1 Built a Convolutional Neural Network (CNN)
 
 3.2 Extracted high-level visual features from house images
