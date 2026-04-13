@@ -27,16 +27,21 @@ This project uses:
  Methodology
 
  1. Data Preprocessing
-Handled missing values
-Scaled numerical features
-Encoded categorical variables
-Linked image paths with tabular data
 
- 2. Image Feature Extraction (CNN)
-Built a Convolutional Neural Network (CNN)
-Extracted high-level visual features from house images
+ 2. Handled missing 
+ 
+3.  Scaled numerical features
 
- 3. Tabular Data Processing
+4.  Encoded categorical variables
+
+5.  Linked image paths with tabular data
+
+ 3. Image Feature Extraction (CNN)
+3.1 Built a Convolutional Neural Network (CNN)
+
+3.2 Extracted high-level visual features from house images
+
+ 5. Tabular Data Processing
 Used structured features:
 Area
 Bedrooms
@@ -45,7 +50,7 @@ Location
 Condition
 Applied scaling and encoding
 
-4. Feature Fusion (Core Step)
+6. Feature Fusion (Core Step)
 Combined:
 CNN image features
 
