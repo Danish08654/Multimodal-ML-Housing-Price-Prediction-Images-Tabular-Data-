@@ -47,53 +47,29 @@ Applied scaling and encoding
 Combined:
 CNN image features
 Tabular features
-
  Created a multimodal representation
 
- 5. Model Training
-    
+ 5. Model Training   
 Built a regression model using fused features
-
 Trained using combined inputs
 
- 7. Evaluation Metrics
+ 6. Evaluation Metrics
 
 Model performance evaluated using:
-
  MAE (Mean Absolute Error)
- 
  RMSE (Root Mean Squared Error)
 
  Tech Stack
  
 Python 
-
 TensorFlow / Keras
-
 Scikit-learn
-
 NumPy / Pandas
-
 Matplotlib
-
- Key Learnings
- 
-Multimodal Machine 
-
-CNN-based feature extraction
-
-Feature fusion techniques
-
-Regression modeling
-
-Model evaluation (MAE, RMSE)
 
 Future Improvements
 
 Use pretrained models (ResNet, EfficientNet)
-
 Improve dataset quality (better image-label mapping)
-
 Hyperparameter tuning
-
 Deploy with Streamlit
