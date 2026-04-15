@@ -12,9 +12,9 @@ Objective
 
 2) Processes structured housing data
 
-4) Combines both modalities (feature fusion)
+3) Combines both modalities (feature fusion)
 
-6) Predicts house prices accurately
+4) Predicts house prices accurately
 
  Dataset
 
