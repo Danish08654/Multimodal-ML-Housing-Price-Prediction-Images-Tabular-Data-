@@ -1,4 +1,4 @@
-This project implements a Multimodal Machine Learning system to predict housing prices by combining:
+# This project implements a Multimodal Machine Learning system to predict housing prices by combining:
 
 1) Structured (tabular) data
 
@@ -6,7 +6,9 @@ This project implements a Multimodal Machine Learning system to predict housing 
 
 Unlike traditional models that rely only on numerical features, this approach leverages visual information + structured features to improve prediction performance.
 
-Objective
+---
+
+# Objective
 
 1) Extracts features from images using CNN
 
@@ -16,7 +18,9 @@ Objective
 
 4) Predicts house prices accurately
 
- Dataset
+---
+
+ # Dataset
 
 This project uses:
 
@@ -24,7 +28,7 @@ This project uses:
    
 2) Custom Image Dataset (house/room images)
 
- Methodology
+#  Methodology
 
  1. Data Preprocessing
 
@@ -43,7 +47,9 @@ Model performance evaluated using:
  
 2) RMSE (Root Mean Squared Error)
 
-Tech Stack
+---
+
+# Tech Stack
  
 1) Python 
 
@@ -55,3 +61,4 @@ Tech Stack
 
 5) Matplotlib
 
+---
